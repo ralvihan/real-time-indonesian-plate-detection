@@ -1,23 +1,12 @@
-# Deteksi Plat Nomor Indonesia Real-Time (Python OpenCV)
+# Real-Time Indonesian License Plate Detection
 
-Sistem ini melakukan deteksi plat nomor kendaraan Indonesia menggunakan Haar Cascade Classifier dan OpenCV, dengan visualisasi jumlah plat yang terdeteksi selama waktu tertentu.
+A real-time Indonesian license plate detection application built with a Haar Cascade Classifier and OpenCV. It captures video from a webcam, marks detected plates on each frame, and plots the number of detections over the first 15 seconds. Detection then continues until the ESC key is pressed.
 
-## 🎯 Tujuan
-- Mendeteksi plat nomor secara real-time dari kamera laptop/webcam.
-- Menghitung jumlah plat yang terdeteksi selama 15 detik pertama.
-- Menampilkan visualisasi data dalam bentuk grafik.
-- Menyediakan deteksi lanjutan secara terus-menerus sampai ESC ditekan.
+## Tech Stack
 
-## 🧰 Tools & Library
-- Python 3.x
-- OpenCV (`cv2`)
-- Matplotlib
-- Numpy
+Python, OpenCV, Matplotlib, NumPy
 
-## 👤 Author
-Raihan Alvian Nuryansyah
+## Results
 
-GitHub: https://github.com/differentlv
-
-![alt text](1tab.png)
-![alt text](2tab.png)
+![Detection result](1tab.png)
+![Detection count chart](2tab.png)
